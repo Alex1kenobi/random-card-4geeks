@@ -1,1 +1,51 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card {
+  background-color: white;
+  min-height: 12cm;
+  max-width: 8cm;
+  border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 100cm;
+  margin: auto;
+}
+.palocarta1 {
+  float: left;
+  top: 100%;
+  font-size: 100px;
+}
+
+.numerocarta {
+  font-size: 120px;
+  position: relative;
+  top: 50%;
+  transform: translate(15%, 100%);
+}
+
+.palocarta2 {
+  float: right;
+  font-size: 100px;
+  transform: translateY(170%);
+}
+
+.boton {
+  position: absolute;
+  transform: translate(440%, 450%);
+}
+
+#pica {
+  color: black;
+}
+#trebol {
+  color: black;
+}
+#corazón {
+  color: red;
+}
+#rombo {
+  color: red;
+}
